@@ -1,0 +1,8 @@
+[package]
+name = "tetris"
+version = "0.1.0"
+authors = ["GooseDB <ITDaun@yandex.ru>"]
+
+[dependencies]
+rand = "0.4.0"
+ggez = "0.4.2"
