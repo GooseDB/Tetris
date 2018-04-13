@@ -27,7 +27,7 @@ fn main() {
         .build()
         .expect("Failed to build ggez context");
     let mut events = event::Events::new(ctx).unwrap();
-    let font = ggez::graphics::Font::new(ctx, "../../3572.ttf", 15).expect("!");
+    let font = ggez::graphics::Font::new(ctx, "/3572.ttf", 15).expect("!");
     let mut exit = false;
     let mut now = Instant::now();
     let mut after = Instant::now();
